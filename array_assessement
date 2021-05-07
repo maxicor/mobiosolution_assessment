@@ -7,6 +7,7 @@ function sum_array($num1, $num2)
     	return -1;
 
     $array = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    sort($array);
     $sum = 0;
     $index1 = array_search($num1, $array);
     $index2 = array_search($num2, $array);
